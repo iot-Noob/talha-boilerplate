@@ -4,13 +4,14 @@ import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
 import { lazy, Suspense } from 'react';
+import { PageSkeleton } from './components/Skeletons';
 
 const HomeRoutesSlicer = lazy(() => import('./routes/HomeRoute/index'))
 
 function App() {
   return (
     <>
-      <Suspense fallback={<div>Main loading</div>}>
+      <Suspense fallback={<PageSkeleton />}>
         <HomeRoutesSlicer />
       </Suspense>
     </>

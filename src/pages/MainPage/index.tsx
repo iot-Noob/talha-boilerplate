@@ -1,6 +1,7 @@
 // MainPage.tsx
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import * as echarts from 'echarts';
+import { DashboardSkeleton } from '../../components/Skeletons';
 import {
   Grid,
   Paper,
@@ -71,6 +72,15 @@ const ChartContainer = ({ option, style, title, subtitle }: {
 const MainPage: React.FC = () => {
   const navigate = useNavigate();
   const logout = useAuthStore((state) => state.logout);
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    // Simulate initial data fetch
+    const timer = setTimeout(() => {
+      setIsLoading(false);
+    }, 1500);
+    return () => clearTimeout(timer);
+  }, []);
 
   const handleSignOut = () => {
     logout();
@@ -115,6 +125,10 @@ const MainPage: React.FC = () => {
       data: [{ value: 78.5 }]
     }]
   };
+
+  if (isLoading) {
+    return <DashboardSkeleton />;
+  }
 
   return (
     <Box sx={{ p: 3, minHeight: '100vh' }}>
