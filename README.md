@@ -20,8 +20,10 @@ A premium, production-ready foundation for modern web applications built with **
 ### 🎨 Premium UI/UX
 - **Material UI V5**: Sleek, modern components with customized theme support.
 - **Theme Management**: Integrated Light/Dark mode with a persistent hook architecture.
+- **Global Localization**: Support for **30+ world languages** with a searchable selection dialog.
+- **RTL Support**: Native layout switching for Arabic, Urdu, Farsi, and Hebrew.
+- **Full Platform Responsiveness**: Mobile-first design with a dynamic sidebar/navbar system that adapts to LTR/RTL.
 - **Animations**: Fluid micro-interactions and page transitions powered by **Framer Motion**.
-- **Responsive Layout**: Mobile-first design with a dynamic sidebar/navbar system.
 - **404 Galaxy**: A custom, animated "Lost in Space" 404 page for catch-all routing.
 
 ### 📈 Data & Forms

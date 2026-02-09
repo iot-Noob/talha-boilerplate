@@ -35,14 +35,25 @@ export const ChartSkeleton = () => (
  * Full Dashboard loading skeleton
  */
 export const DashboardSkeleton = () => (
-    <Box sx={{ p: 3 }}>
+    <Box sx={{ p: { xs: 2, sm: 3 } }}>
         {/* Header Skeleton */}
-        <Box display="flex" justifyContent="space-between" alignItems="center" mb={4}>
-            <Box sx={{ width: '40%' }}>
+        <Box sx={{
+            display: 'flex',
+            flexDirection: { xs: 'column', md: 'row' },
+            justifyContent: 'space-between',
+            alignItems: { xs: 'flex-start', md: 'center' },
+            gap: 2,
+            mb: 4
+        }}>
+            <Box sx={{ width: { xs: '80%', md: '40%' } }}>
                 <Skeleton variant="text" width="80%" height={60} />
                 <Skeleton variant="text" width="60%" height={20} />
             </Box>
-            <Stack direction="row" spacing={2}>
+            <Stack
+                direction="row"
+                spacing={1}
+                sx={{ width: { xs: '100%', md: 'auto' }, justifyContent: { xs: 'flex-end', md: 'flex-start' } }}
+            >
                 <Skeleton variant="circular" width={40} height={40} />
                 <Skeleton variant="circular" width={40} height={40} />
                 <Skeleton variant="rounded" width={120} height={40} />
