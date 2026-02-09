@@ -58,7 +58,7 @@ A premium, production-ready foundation for modern web applications built with **
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/iot-Noob/talha-boilerplate.git
    ```
 2. Install dependencies:
    ```bash
