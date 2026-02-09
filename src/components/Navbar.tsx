@@ -119,7 +119,12 @@ export function Navbar({ title, isCollapsed, onToggleCollapse }: NavbarProps) {
   };
 
   const drawerContent = (
-    <Box sx={{ height: '100%', display: 'flex', flexDirection: 'column' }}>
+    <Box sx={{
+      height: '100%',
+      display: 'flex',
+      flexDirection: 'column',
+      direction: theme.direction // Ensure inner box respects direction
+    }}>
       <Box sx={{
         p: 2,
         display: 'flex',
@@ -242,7 +247,10 @@ export function Navbar({ title, isCollapsed, onToggleCollapse }: NavbarProps) {
           borderBottom: 1,
           borderColor: 'divider',
           width: isMobile ? '100%' : `calc(100% - ${isCollapsed ? DRAWER_WIDTH_COLLAPSED : DRAWER_WIDTH_EXPANDED}px)`,
-          ml: isMobile ? 0 : `${isCollapsed ? DRAWER_WIDTH_COLLAPSED : DRAWER_WIDTH_EXPANDED}px`,
+          ...(theme.direction === 'rtl'
+            ? { mr: isMobile ? 0 : `${isCollapsed ? DRAWER_WIDTH_COLLAPSED : DRAWER_WIDTH_EXPANDED}px` }
+            : { ml: isMobile ? 0 : `${isCollapsed ? DRAWER_WIDTH_COLLAPSED : DRAWER_WIDTH_EXPANDED}px` }
+          ),
           transition: theme.transitions.create(['width', 'margin'], {
             easing: theme.transitions.easing.sharp,
             duration: theme.transitions.duration.enteringScreen,
@@ -286,6 +294,7 @@ export function Navbar({ title, isCollapsed, onToggleCollapse }: NavbarProps) {
 
       <Drawer
         variant={isMobile ? 'temporary' : 'permanent'}
+        anchor={theme.direction === 'rtl' ? 'right' : 'left'}
         open={!isCollapsed || isMobile}
         onClose={onToggleCollapse}
         sx={{
@@ -313,11 +322,17 @@ export function Navbar({ title, isCollapsed, onToggleCollapse }: NavbarProps) {
       <Dialog
         open={isLangDialogOpen}
         onClose={() => setIsLangDialogOpen(false)}
-        maxWidth="xs"
         fullWidth
         PaperProps={{
-          sx: { borderRadius: 3, p: 1 }
+          sx: {
+            borderRadius: { xs: 0, sm: 3 },
+            p: { xs: 0, sm: 1 },
+            m: { xs: 0, sm: 2 },
+            maxHeight: { xs: '100%', sm: '90vh' },
+            width: { xs: '100%', sm: 'auto' }
+          }
         }}
+        fullScreen={isMobile}
       >
         <DialogTitle sx={{ fontWeight: 700, pb: 1 }}>Select Language</DialogTitle>
         <DialogContent>

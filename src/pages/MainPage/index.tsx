@@ -14,7 +14,9 @@ import {
   Stack,
   Chip,
   Button,
-  IconButton
+  IconButton,
+  useTheme,
+  useMediaQuery
 } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
 import {
@@ -73,6 +75,8 @@ const ChartContainer = ({ option, style, title, subtitle }: {
 const MainPage: React.FC = () => {
   const { t } = useTranslation();
   const navigate = useNavigate();
+  const theme = useTheme();
+  const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
   const logout = useAuthStore((state) => state.logout);
   const [isLoading, setIsLoading] = useState(true);
 
@@ -133,32 +137,77 @@ const MainPage: React.FC = () => {
   }
 
   return (
-    <Box sx={{ p: 3, minHeight: '100vh' }}>
+    <Box sx={{
+      p: { xs: 2, sm: 3 },
+      minHeight: '100vh',
+      bgcolor: 'background.default',
+      transition: theme.transitions.create(['margin', 'width'], {
+        easing: theme.transitions.easing.sharp,
+        duration: theme.transitions.duration.enteringScreen,
+      }),
+    }}>
       {/* Header */}
-      <Box display="flex" justifyContent="space-between" alignItems="center" mb={4}>
+      <Box sx={{
+        display: 'flex',
+        flexDirection: { xs: 'column', md: 'row' },
+        justifyContent: 'space-between',
+        alignItems: { xs: 'flex-start', md: 'center' },
+        gap: 2,
+        mb: 4
+      }}>
         <Box>
-          <Typography variant="h4" fontWeight={700} gutterBottom>
+          <Typography
+            variant={isMobile ? "h5" : "h4"}
+            fontWeight={700}
+            gutterBottom
+            color="text.primary"
+          >
             {t('dashboard.title')}
           </Typography>
-          <Typography variant="body1" color="#6b7280">
+          <Typography variant="body2" color="text.secondary">
             {t('dashboard.welcome_prof')}
           </Typography>
         </Box>
-        <Stack direction="row" spacing={2} alignItems="center">
-          <IconButton sx={{ bgcolor: 'white', boxShadow: 1 }} onClick={handleSignOut} title={t('common.logout')}>
-            <LogoutIcon color="error" />
+        <Stack
+          direction="row"
+          spacing={1}
+          alignItems="center"
+          sx={{ width: { xs: '100%', md: 'auto' }, justifyContent: { xs: 'flex-end', md: 'flex-start' } }}
+        >
+          <IconButton
+            sx={{
+              bgcolor: 'background.paper',
+              boxShadow: 1,
+              '&:hover': { bgcolor: 'action.hover' }
+            }}
+            onClick={handleSignOut}
+            title={t('common.logout')}
+          >
+            <LogoutIcon color="error" fontSize="small" />
           </IconButton>
-          <IconButton sx={{ bgcolor: 'white', boxShadow: 1 }} title={t('common.notifications')}>
-            <NotificationsIcon />
+          <IconButton
+            sx={{
+              bgcolor: 'background.paper',
+              boxShadow: 1,
+              '&:hover': { bgcolor: 'action.hover' }
+            }}
+            title={t('common.notifications')}
+          >
+            <NotificationsIcon fontSize="small" />
           </IconButton>
-          <Button variant="contained" startIcon={<DownloadIcon />}>
+          <Button
+            variant="contained"
+            startIcon={<DownloadIcon />}
+            size={isMobile ? "small" : "medium"}
+            fullWidth={isMobile}
+          >
             {t('dashboard.export')}
           </Button>
         </Stack>
       </Box>
 
       {/* Stats Cards */}
-      <Grid container spacing={3} mb={4}>
+      <Grid container spacing={{ xs: 2, md: 3 }} mb={4}>
         {[
           { title: t('dashboard.total_students'), value: '2,847', change: '+12.5%', icon: <PeopleIcon />, color: '#4f46e5' },
           { title: t('dashboard.active_courses'), value: '48', change: '+3', icon: <SchoolIcon />, color: '#10b981' },
@@ -166,14 +215,19 @@ const MainPage: React.FC = () => {
           { title: t('dashboard.avg_study_time'), value: '6.2 hrs', change: '+1.4 hrs', icon: <AccessTimeIcon />, color: '#ef4444' }
         ].map((stat, index) => (
           <Grid item xs={12} sm={6} lg={3} key={index}>
-            <Card sx={{ borderRadius: 3, boxShadow: 2 }}>
-              <CardContent>
-                <Stack direction="row" justifyContent="space-between" alignItems="flex-start">
+            <Card sx={{
+              borderRadius: 3,
+              boxShadow: '0 4px 20px 0 rgba(0,0,0,0.05)',
+              transition: 'transform 0.2s',
+              '&:hover': { transform: 'translateY(-4px)' }
+            }}>
+              <CardContent sx={{ '&:last-child': { pb: 2 } }}>
+                <Stack direction="row" justifyContent="space-between" alignItems="center">
                   <Box>
-                    <Typography variant="subtitle2" color="#6b7280" gutterBottom>
+                    <Typography variant="caption" color="text.secondary" fontWeight={600} display="block" gutterBottom>
                       {stat.title}
                     </Typography>
-                    <Typography variant="h4" fontWeight={700} sx={{ color: stat.color, mb: 0.5 }}>
+                    <Typography variant={isMobile ? "h5" : "h4"} fontWeight={700} sx={{ color: 'text.primary', mb: 0.5 }}>
                       {stat.value}
                     </Typography>
                     <Chip
@@ -182,17 +236,19 @@ const MainPage: React.FC = () => {
                       sx={{
                         bgcolor: `${stat.color}15`,
                         color: stat.color,
-                        fontWeight: 600
+                        fontWeight: 700,
+                        fontSize: '0.7rem',
+                        height: 20
                       }}
                     />
                   </Box>
                   <Avatar sx={{
                     bgcolor: `${stat.color}15`,
                     color: stat.color,
-                    width: 48,
-                    height: 48
+                    width: { xs: 40, sm: 48 },
+                    height: { xs: 40, sm: 48 }
                   }}>
-                    {stat.icon}
+                    {React.cloneElement(stat.icon as React.ReactElement, { fontSize: isMobile ? 'small' : 'medium' })}
                   </Avatar>
                 </Stack>
               </CardContent>
