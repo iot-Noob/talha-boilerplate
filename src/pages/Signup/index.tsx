@@ -16,7 +16,6 @@ import {
   LinearProgress,
   FormControlLabel,
   Checkbox,
-  Link,
 } from '@mui/material';
 import {
   PersonOutline as PersonIcon,
@@ -30,6 +29,7 @@ import {
   ErrorOutline as ErrorIcon,
 } from '@mui/icons-material';
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 import { useTheme } from '@mui/material/styles';
 import { useNavigate } from 'react-router-dom';
 import { useForm } from 'react-hook-form';
@@ -72,6 +72,7 @@ interface PasswordStrength {
 }
 
 function Signup() {
+  const { t } = useTranslation();
   const theme = useTheme();
   const navigate = useNavigate();
   const setAuth = useAuthStore((state) => state.setAuth);
@@ -183,7 +184,7 @@ function Signup() {
             sx={{
               p: { xs: 3, sm: 4, md: 5 },
               borderRadius: 4,
-              background: 'rgba(255, 255, 255, 0.95)',
+              background: theme.palette.mode === 'dark' ? 'rgba(31, 41, 55, 0.9)' : 'rgba(255, 255, 255, 0.95)',
               backdropFilter: 'blur(10px)',
               overflow: 'hidden',
               position: 'relative',
@@ -250,10 +251,10 @@ function Signup() {
                   mb: 1,
                 }}
               >
-                Create Account
+                {t('auth.create_account')}
               </Typography>
               <Typography variant="body2" color="text.secondary">
-                Join our community and get started
+                {t('auth.join_community')}
               </Typography>
             </Box>
 
@@ -289,7 +290,7 @@ function Signup() {
                   <Grid item xs={12} sm={6}>
                     <TextField
                       fullWidth
-                      label="First Name"
+                      label={t('auth.first_name')}
                       {...register('firstName')}
                       error={!!errors.firstName}
                       helperText={errors.firstName?.message}
@@ -310,7 +311,7 @@ function Signup() {
                   <Grid item xs={12} sm={6}>
                     <TextField
                       fullWidth
-                      label="Last Name"
+                      label={t('auth.last_name')}
                       {...register('lastName')}
                       error={!!errors.lastName}
                       helperText={errors.lastName?.message}
@@ -331,7 +332,7 @@ function Signup() {
                   <Grid item xs={12} md={6}>
                     <TextField
                       fullWidth
-                      label="Email Address"
+                      label={t('auth.email')}
                       {...register('email')}
                       error={!!errors.email}
                       helperText={errors.email?.message}
@@ -352,7 +353,7 @@ function Signup() {
                   <Grid item xs={12} md={6}>
                     <TextField
                       fullWidth
-                      label="Phone Number (Optional)"
+                      label={t('auth.phone')}
                       {...register('phone')}
                       error={!!errors.phone}
                       helperText={errors.phone?.message}
@@ -373,7 +374,7 @@ function Signup() {
                   <Grid item xs={12}>
                     <TextField
                       fullWidth
-                      label="Username"
+                      label={t('auth.username')}
                       {...register('username')}
                       error={!!errors.username}
                       helperText={errors.username?.message}
@@ -394,7 +395,7 @@ function Signup() {
                   <Grid item xs={12}>
                     <TextField
                       fullWidth
-                      label="Password"
+                      label={t('auth.password')}
                       type={showPassword ? 'text' : 'password'}
                       {...register('password')}
                       error={!!errors.password}
@@ -467,7 +468,7 @@ function Signup() {
                   <Grid item xs={12}>
                     <TextField
                       fullWidth
-                      label="Confirm Password"
+                      label={t('auth.confirm_password')}
                       type={showConfirmPassword ? 'text' : 'password'}
                       {...register('confirmPassword')}
                       error={!!errors.confirmPassword}
@@ -507,14 +508,7 @@ function Signup() {
                       }
                       label={
                         <Typography variant="body2">
-                          I agree to the{' '}
-                          <Link href="/terms" target="_blank" sx={{ fontWeight: 600 }}>
-                            Terms of Service
-                          </Link>{' '}
-                          and{' '}
-                          <Link href="/privacy" target="_blank" sx={{ fontWeight: 600 }}>
-                            Privacy Policy
-                          </Link>
+                          {t('auth.accept_terms')}
                         </Typography>
                       }
                     />
@@ -554,7 +548,7 @@ function Signup() {
                       {isLoading ? (
                         <CircularProgress size={24} sx={{ color: 'white' }} />
                       ) : (
-                        'Create Account'
+                        t('auth.create_account')
                       )}
                     </Button>
                   </motion.div>
@@ -564,7 +558,7 @@ function Signup() {
                 <Box sx={{ my: 4, position: 'relative' }}>
                   <Divider>
                     <Typography variant="body2" color="text.secondary" sx={{ px: 2 }}>
-                      Already have an account?
+                      {t('auth.already_account')}
                     </Typography>
                   </Divider>
                 </Box>
@@ -587,7 +581,7 @@ function Signup() {
                       },
                     }}
                   >
-                    Sign In to Existing Account
+                    {t('auth.signin_existing')}
                   </Button>
                 </Box>
 

@@ -1,0 +1,50 @@
+{
+  "common": {
+    "login": "Přihlásit se",
+    "signup": "Registrovat se",
+    "logout": "Odhlásit se",
+    "profile": "Profil",
+    "dashboard": "Nástěnka",
+    "home": "Domů",
+    "settings": "Nastavení",
+    "notifications": "Oznámení",
+    "welcome": "Vítejte",
+    "boilerplate": "Boilerplate",
+    "notifications_empty": "Žádná nová oznámení"
+  },
+  "dashboard": {
+    "title": "🎓 LMS Nástěnka",
+    "welcome_prof": "Vítejte zpět, pane profesore! Zde je váš přehled výuky.",
+    "export": "Exportovat zprávu",
+    "total_students": "Celkem studentů",
+    "active_courses": "Aktivní kurzy",
+    "completion_rate": "Míra dokončení",
+    "avg_study_time": "Prům. doba studia",
+    "enrollment_trends": "📈 Trendy zápisů",
+    "monthly_enrollment": "Měsíční zápisy studentů",
+    "overall_performance": "🎯 Celkový výkon",
+    "avg_performance": "Průměrné skóre výkonu studentů"
+  },
+  "auth": {
+    "welcome_back": "Vítejte zpět",
+    "signin_continue": "Pro pokračování se přihlaste ke svému účtu",
+    "email": "E-mailová adresa",
+    "password": "Heslo",
+    "remember_me": "Zapamatovat si mě",
+    "forgot_password": "Zapomněli jste heslo?",
+    "signin_btn": "Přihlásit se",
+    "or_continue": "Nebo pokračujte pomocí",
+    "no_account": "Nemáte účet?",
+    "signup_now": "Zaregistrujte se nyní",
+    "create_account": "Vytvořit účet",
+    "join_community": "Připojte se k naší komunitě a začněte",
+    "first_name": "Jméno",
+    "last_name": "Příjmení",
+    "phone": "Telefonní číslo (volitelné)",
+    "username": "Uživatelské jméno",
+    "confirm_password": "Potvrdit heslo",
+    "accept_terms": "Souhlasím s obchodními podmínkami a zásadami ochrany osobních údajů",
+    "already_account": "Již máte účet?",
+    "signin_existing": "Přihlásit se ke stávajícímu účtu"
+  }
+}

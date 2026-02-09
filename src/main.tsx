@@ -5,6 +5,7 @@ import { queryClient } from './api/http/query.ts'
 import { QueryClientProvider } from '@tanstack/react-query';
 import { MyToastContainer } from './api/ReactToastify.tsx'
 import { ThemeProvider } from './context/ThemeContext';
+import './i18n/config';
 import * as Sentry from "@sentry/react";
 import { GlobalErrorBoundary } from './components/GlobalErrorBoundary';
 

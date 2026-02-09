@@ -1,0 +1,50 @@
+{
+  "common": {
+    "login": "Σύνδεση",
+    "signup": "Εγγραφή",
+    "logout": "Αποσύνδεση",
+    "profile": "Προφίλ",
+    "dashboard": "Πίνακας Ελέγχου",
+    "home": "Αρχική",
+    "settings": "Ρυθμίσεις",
+    "notifications": "Ειδοποιήσεις",
+    "welcome": "Καλώς ήρθατε",
+    "boilerplate": "Boilerplate",
+    "notifications_empty": "Δεν υπάρχουν νέες ειδοποιήσεις"
+  },
+  "dashboard": {
+    "title": "🎓 Πίνακας Ελέγχου LMS",
+    "welcome_prof": "Καλώς ήρθατε και πάλι, Καθηγητά! Εδώ είναι η επισκόπηση της εκπαίδευσής σας.",
+    "export": "Εξαγωγή Αναφοράς",
+    "total_students": "Σύνολο Μαθητών",
+    "active_courses": "Ενεργά Μαθήματα",
+    "completion_rate": "Ποσοστό Ολοκλήρωσης",
+    "avg_study_time": "Μέσος Χρόνος Μελέτης",
+    "enrollment_trends": "📈 Τάσεις Εγγραφών",
+    "monthly_enrollment": "Μηνιαίες εγγραφές μαθητών",
+    "overall_performance": "🎯 Συνολική Απόδοση",
+    "avg_performance": "Μέση βαθμολογία απόδοσης μαθητών"
+  },
+  "auth": {
+    "welcome_back": "Καλώς ήρθατε και πάλι",
+    "signin_continue": "Συνδεθείτε στον λογαριασμό σας για να συνεχίσετε",
+    "email": "Διεύθυνση Email",
+    "password": "Κωδικός Πρόσβασης",
+    "remember_me": "Να με θυμάσαι",
+    "forgot_password": "Ξεχάσατε τον κωδικό σας;",
+    "signin_btn": "Σύνδεση",
+    "or_continue": "Ή συνεχίστε με",
+    "no_account": "Δεν έχετε λογαριασμό;",
+    "signup_now": "Εγγραφείτε τώρα",
+    "create_account": "Δημιουργία Λογαριασμού",
+    "join_community": "Γίνετε μέλος της κοινότητάς μας και ξεκινήστε τώρα",
+    "first_name": "Όνομα",
+    "last_name": "Επώνυμο",
+    "phone": "Αριθμός Τηλεφώνου (Προαιρετικό)",
+    "username": "Όνομα Χρήστη",
+    "confirm_password": "Επιβεβαίωση Κωδικού",
+    "accept_terms": "Συμφωνώ με τους Όρους Χρήσης και την Πολιτική Απορρήτου",
+    "already_account": "Έχετε ήδη λογαριασμό;",
+    "signin_existing": "Σύνδεση σε υπάρχοντα λογαριασμό"
+  }
+}

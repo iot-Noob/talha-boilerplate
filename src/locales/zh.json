@@ -1,0 +1,50 @@
+{
+  "common": {
+    "login": "登录",
+    "signup": "注册",
+    "logout": "退出登录",
+    "profile": "个人资料",
+    "dashboard": "仪表板",
+    "home": "首页",
+    "settings": "设置",
+    "notifications": "通知",
+    "welcome": "欢迎",
+    "boilerplate": "样板",
+    "notifications_empty": "暂无新通知"
+  },
+  "dashboard": {
+    "title": "🎓 LMS 仪表板",
+    "welcome_prof": "欢迎回来，教授！这是您的学习概览。",
+    "export": "导出报告",
+    "total_students": "学生总数",
+    "active_courses": "活跃课程",
+    "completion_rate": "完成率",
+    "avg_study_time": "平均学习时长",
+    "enrollment_trends": "📈 报名趋势",
+    "monthly_enrollment": "每月学生报名人数",
+    "overall_performance": "🎯 整体表现",
+    "avg_performance": "学生平均成绩"
+  },
+  "auth": {
+    "welcome_back": "欢迎回来",
+    "signin_continue": "登录您的帐户以继续",
+    "email": "电子邮件地址",
+    "password": "密码",
+    "remember_me": "记住我",
+    "forgot_password": "忘记密码？",
+    "signin_btn": "登录",
+    "or_continue": "或通过以下方式继续",
+    "no_account": "还没有帐户？",
+    "signup_now": "立即注册",
+    "create_account": "创建帐户",
+    "join_community": "加入我们的社区并开始体验",
+    "first_name": "名字",
+    "last_name": "姓氏",
+    "phone": "电话号码（可选）",
+    "username": "用户名",
+    "confirm_password": "确认密码",
+    "accept_terms": "我同意服务条款和隐私政策",
+    "already_account": "已有帐户？",
+    "signin_existing": "登录现有帐户"
+  }
+}

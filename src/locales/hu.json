@@ -1,0 +1,50 @@
+{
+  "common": {
+    "login": "Bejelentkezés",
+    "signup": "Regisztráció",
+    "logout": "Kijelentkezés",
+    "profile": "Profil",
+    "dashboard": "Vezérlőpult",
+    "home": "Kezdőlap",
+    "settings": "Beállítások",
+    "notifications": "Értesítések",
+    "welcome": "Üdvözöljük",
+    "boilerplate": "Boilerplate",
+    "notifications_empty": "Nincsenek új értesítések"
+  },
+  "dashboard": {
+    "title": "🎓 LMS Vezérlőpult",
+    "welcome_prof": "Üdvözöljük újra, professzor úr! Itt a tanulási áttekintése.",
+    "export": "Jelentés exportálása",
+    "total_students": "Összes hallgató",
+    "active_courses": "Aktív kurzusok",
+    "completion_rate": "Befejezési arány",
+    "avg_study_time": "Átlagos tanulási idő",
+    "enrollment_trends": "📈 Beiratkozási trendek",
+    "monthly_enrollment": "Havi hallgatói beiratkozás",
+    "overall_performance": "🎯 Teljesítmény",
+    "avg_performance": "Átlagos hallgatói teljesítmény pontszám"
+  },
+  "auth": {
+    "welcome_back": "Üdvözöljük újra",
+    "signin_continue": "Jelentkezzen be fiókjába a folytatáshoz",
+    "email": "E-mail cím",
+    "password": "Jelszó",
+    "remember_me": "Emlékezz rám",
+    "forgot_password": "Elfelejtette a jelszavát?",
+    "signin_btn": "Bejelentkezés",
+    "or_continue": "Vagy folytassa ezzel",
+    "no_account": "Nincs még fiókja?",
+    "signup_now": "Regisztráljon most",
+    "create_account": "Fiók létrehozása",
+    "join_community": "Csatlakozzon közösségünkhöz és kezdje el most",
+    "first_name": "Keresztnév",
+    "last_name": "Vezetéknév",
+    "phone": "Telefonszám (opcionális)",
+    "username": "Felhasználónév",
+    "confirm_password": "Jelszó megerősítése",
+    "accept_terms": "Elfogadom a Felhasználási feltételeket és az Adatvédelmi szabályzatot",
+    "already_account": "Már van fiókja?",
+    "signin_existing": "Bejelentkezés meglévő fiókkal"
+  }
+}

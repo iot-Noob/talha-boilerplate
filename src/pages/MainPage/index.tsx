@@ -2,6 +2,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import * as echarts from 'echarts';
 import { DashboardSkeleton } from '../../components/Skeletons';
+import { useTranslation } from 'react-i18next';
 import {
   Grid,
   Paper,
@@ -70,6 +71,7 @@ const ChartContainer = ({ option, style, title, subtitle }: {
 
 // ==================== MAIN COMPONENT ====================
 const MainPage: React.FC = () => {
+  const { t } = useTranslation();
   const navigate = useNavigate();
   const logout = useAuthStore((state) => state.logout);
   const [isLoading, setIsLoading] = useState(true);
@@ -136,21 +138,21 @@ const MainPage: React.FC = () => {
       <Box display="flex" justifyContent="space-between" alignItems="center" mb={4}>
         <Box>
           <Typography variant="h4" fontWeight={700} gutterBottom>
-            🎓 LMS Dashboard
+            {t('dashboard.title')}
           </Typography>
           <Typography variant="body1" color="#6b7280">
-            Welcome back, Professor! Here's your learning overview.
+            {t('dashboard.welcome_prof')}
           </Typography>
         </Box>
         <Stack direction="row" spacing={2} alignItems="center">
-          <IconButton sx={{ bgcolor: 'white', boxShadow: 1 }} onClick={handleSignOut} title="Sign Out">
+          <IconButton sx={{ bgcolor: 'white', boxShadow: 1 }} onClick={handleSignOut} title={t('common.logout')}>
             <LogoutIcon color="error" />
           </IconButton>
-          <IconButton sx={{ bgcolor: 'white', boxShadow: 1 }}>
+          <IconButton sx={{ bgcolor: 'white', boxShadow: 1 }} title={t('common.notifications')}>
             <NotificationsIcon />
           </IconButton>
           <Button variant="contained" startIcon={<DownloadIcon />}>
-            Export Report
+            {t('dashboard.export')}
           </Button>
         </Stack>
       </Box>
@@ -158,10 +160,10 @@ const MainPage: React.FC = () => {
       {/* Stats Cards */}
       <Grid container spacing={3} mb={4}>
         {[
-          { title: 'Total Students', value: '2,847', change: '+12.5%', icon: <PeopleIcon />, color: '#4f46e5' },
-          { title: 'Active Courses', value: '48', change: '+3', icon: <SchoolIcon />, color: '#10b981' },
-          { title: 'Completion Rate', value: '84.2%', change: '+5.3%', icon: <TrendingUpIcon />, color: '#f59e0b' },
-          { title: 'Avg. Study Time', value: '6.2 hrs', change: '+1.4 hrs', icon: <AccessTimeIcon />, color: '#ef4444' }
+          { title: t('dashboard.total_students'), value: '2,847', change: '+12.5%', icon: <PeopleIcon />, color: '#4f46e5' },
+          { title: t('dashboard.active_courses'), value: '48', change: '+3', icon: <SchoolIcon />, color: '#10b981' },
+          { title: t('dashboard.completion_rate'), value: '84.2%', change: '+5.3%', icon: <TrendingUpIcon />, color: '#f59e0b' },
+          { title: t('dashboard.avg_study_time'), value: '6.2 hrs', change: '+1.4 hrs', icon: <AccessTimeIcon />, color: '#ef4444' }
         ].map((stat, index) => (
           <Grid item xs={12} sm={6} lg={3} key={index}>
             <Card sx={{ borderRadius: 3, boxShadow: 2 }}>
@@ -205,8 +207,8 @@ const MainPage: React.FC = () => {
           <Paper sx={{ p: 3, borderRadius: 3, boxShadow: 2 }}>
             <ChartContainer
               option={enrollmentOption}
-              title="📈 Enrollment Trends"
-              subtitle="Monthly student enrollment"
+              title={t('dashboard.enrollment_trends')}
+              subtitle={t('dashboard.monthly_enrollment')}
             />
           </Paper>
         </Grid>
@@ -215,8 +217,8 @@ const MainPage: React.FC = () => {
           <Paper sx={{ p: 3, borderRadius: 3, boxShadow: 2 }}>
             <ChartContainer
               option={performanceOption}
-              title="🎯 Overall Performance"
-              subtitle="Average student performance score"
+              title={t('dashboard.overall_performance')}
+              subtitle={t('dashboard.avg_performance')}
             />
           </Paper>
         </Grid>

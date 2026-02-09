@@ -1,0 +1,50 @@
+{
+  "common": {
+    "login": "ورود",
+    "signup": "ثبت‌نام",
+    "logout": "خروج",
+    "profile": "پروفایل",
+    "dashboard": "داشبورد",
+    "home": "خانه",
+    "settings": "تنظیمات",
+    "notifications": "اعلان‌ها",
+    "welcome": "خوش آمدید",
+    "boilerplate": "قالب پیش‌فرض",
+    "notifications_empty": "اعلان جدیدی ندارید"
+  },
+  "dashboard": {
+    "title": "🎓 داشبورد LMS",
+    "welcome_prof": "استاد خوش آمدید! این خلاصه‌ای از وضعیت آموزشی است.",
+    "export": "خروجی گزارش",
+    "total_students": "کل دانشجویان",
+    "active_courses": "دوره‌های فعال",
+    "completion_rate": "نرخ تکمیل",
+    "avg_study_time": "میانگین زمان مطالعه",
+    "enrollment_trends": "📈 روند ثبت‌نام",
+    "monthly_enrollment": "ثبت‌نام ماهانه دانشجویان",
+    "overall_performance": "🎯 عملکرد کلی",
+    "avg_performance": "میانگین نمره عملکرد دانشجویان"
+  },
+  "auth": {
+    "welcome_back": "خوش آمدید",
+    "signin_continue": "برای ادامه وارد حساب کاربری خود شوید",
+    "email": "آدرس ایمیل",
+    "password": "رمز عبور",
+    "remember_me": "مرا به خاطر بسپار",
+    "forgot_password": "رمز عبور را فراموش کرده‌اید؟",
+    "signin_btn": "ورود",
+    "or_continue": "یا ادامه با",
+    "no_account": "حساب کاربری ندارید؟",
+    "signup_now": "اکنون ثبت‌نام کنید",
+    "create_account": "ایجاد حساب کاربری",
+    "join_community": "به جامعه ما بپیوندید و همین حالا شروع کنید",
+    "first_name": "نام",
+    "last_name": "نام خانوادگی",
+    "phone": "شماره تلفن (اختیاری)",
+    "username": "نام کاربری",
+    "confirm_password": "تایید رمز عبور",
+    "accept_terms": "من با شرایط خدمات و سیاست حریم خصوصی موافقم",
+    "already_account": "قبلاً ثبت‌نام کرده‌اید؟",
+    "signin_existing": "ورود به حساب کاربری موجود"
+  }
+}

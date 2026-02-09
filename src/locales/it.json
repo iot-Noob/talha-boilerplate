@@ -1,0 +1,50 @@
+{
+  "common": {
+    "login": "Accedi",
+    "signup": "Registrati",
+    "logout": "Esci",
+    "profile": "Profilo",
+    "dashboard": "Dashboard",
+    "home": "Home",
+    "settings": "Impostazioni",
+    "notifications": "Notifiche",
+    "welcome": "Benvenuto",
+    "boilerplate": "Boilerplate",
+    "notifications_empty": "Nessuna nuova notifica"
+  },
+  "dashboard": {
+    "title": "🎓 Dashboard LMS",
+    "welcome_prof": "Bentornato, Professore! Ecco la tua panoramica didattica.",
+    "export": "Esporta Rapporto",
+    "total_students": "Studenti Totali",
+    "active_courses": "Corsi Attivi",
+    "completion_rate": "Tasso di Completamento",
+    "avg_study_time": "Tempo Medio di Studio",
+    "enrollment_trends": "📈 Tendenze Iscrizioni",
+    "monthly_enrollment": "Iscrizioni mensili degli studenti",
+    "overall_performance": "🎯 Prestazioni Generali",
+    "avg_performance": "Punteggio medio delle prestazioni degli studenti"
+  },
+  "auth": {
+    "welcome_back": "Bentornato",
+    "signin_continue": "Accedi al tuo account per continuare",
+    "email": "Indirizzo Email",
+    "password": "Password",
+    "remember_me": "Ricordami",
+    "forgot_password": "Password dimenticata?",
+    "signin_btn": "Accedi",
+    "or_continue": "O continua con",
+    "no_account": "Non hai un account?",
+    "signup_now": "Registrati ora",
+    "create_account": "Crea Account",
+    "join_community": "Unisciti alla nostra community e inizia subito",
+    "first_name": "Nome",
+    "last_name": "Cognome",
+    "phone": "Numero di Telefono (Opzionale)",
+    "username": "Nome Utente",
+    "confirm_password": "Conferma Password",
+    "accept_terms": "Accetto i Termini di Servizio e l'Informativa sulla Privacy",
+    "already_account": "Hai già un account?",
+    "signin_existing": "Accedi all'account esistente"
+  }
+}

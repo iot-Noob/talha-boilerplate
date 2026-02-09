@@ -1,0 +1,49 @@
+{
+    "common": {
+        "login": "لاگ ان",
+        "signup": "سائن اپ",
+        "logout": "لاگ آؤٹ",
+        "profile": "پروفائل",
+        "dashboard": "ڈیش بورڈ",
+        "home": "ہوم",
+        "settings": "ترتیبات",
+        "notifications": "اطلاعات",
+        "welcome": "خوش آمدید",
+        "boilerplate": "بوائلر پلیٹ"
+    },
+    "dashboard": {
+        "title": "🎓 ایل ایم ایس ڈیش بورڈ",
+        "welcome_prof": "خوش آمدید، پروفیسر! یہ آپ کا تعلیمی جائزہ ہے۔",
+        "export": "رپورٹ ایکسپورٹ کریں",
+        "total_students": "کل طلباء",
+        "active_courses": "فعال کورسز",
+        "completion_rate": "تکمیل کی شرح",
+        "avg_study_time": "اوسط مطالعہ وقت",
+        "enrollment_trends": "📈 رجسٹریشن کے رجحانات",
+        "monthly_enrollment": "ماہانہ طلباء کی رجسٹریشن",
+        "overall_performance": "🎯 مجموعی کارکردگی",
+        "avg_performance": "اوسط طالب علم کی کارکردگی کا سکور"
+    },
+    "auth": {
+        "welcome_back": "خوش آمدید",
+        "signin_continue": "جاری رکھنے کے لیے اپنے اکاؤنٹ میں سائن ان کریں",
+        "email": "ای میل ایڈریس",
+        "password": "پاس ورڈ",
+        "remember_me": "مجھے یاد رکھیں",
+        "forgot_password": "پاس ورڈ بھول گئے؟",
+        "signin_btn": "سائن ان کریں",
+        "or_continue": "یا اس کے ساتھ جاری رکھیں",
+        "no_account": "اکاؤنٹ نہیں ہے؟",
+        "signup_now": "ابھی سائن اپ کریں",
+        "create_account": "اکاؤنٹ بنائیں",
+        "join_community": "ہماری کمیونٹی میں شامل ہوں اور شروع کریں",
+        "first_name": "پہلا نام",
+        "last_name": "آخری نام",
+        "phone": "فون نمبر (اختیاری)",
+        "username": "صارف کا نام",
+        "confirm_password": "پاس ورڈ کی تصدیق کریں",
+        "accept_terms": "میں سروس کی شرائط اور رازداری کی پالیسی سے اتفاق کرتا ہوں",
+        "already_account": "پہلے سے اکاؤنٹ ہے؟",
+        "signin_existing": "موجودہ اکاؤنٹ میں سائن ان کریں"
+    }
+}

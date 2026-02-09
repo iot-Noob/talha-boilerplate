@@ -1,0 +1,50 @@
+{
+  "common": {
+    "login": "Войти",
+    "signup": "Регистрация",
+    "logout": "Выйти",
+    "profile": "Профиль",
+    "dashboard": "Панель управления",
+    "home": "Главная",
+    "settings": "Настройки",
+    "notifications": "Уведомления",
+    "welcome": "Добро пожаловать",
+    "boilerplate": "Шаблон",
+    "notifications_empty": "Новых уведомлений нет"
+  },
+  "dashboard": {
+    "title": "🎓 Панель LMS",
+    "welcome_prof": "С возвращением, профессор! Вот ваш обзор обучения.",
+    "export": "Экспорт отчета",
+    "total_students": "Всего студентов",
+    "active_courses": "Активные курсы",
+    "completion_rate": "Процент завершения",
+    "avg_study_time": "Ср. время обучения",
+    "enrollment_trends": "📈 Тенденции зачисления",
+    "monthly_enrollment": "Ежемесячное зачисление студентов",
+    "overall_performance": "🎯 Общая успеваемость",
+    "avg_performance": "Средний балл успеваемости студентов"
+  },
+  "auth": {
+    "welcome_back": "С возвращением",
+    "signin_continue": "Войдите в свой аккаунт, чтобы продолжить",
+    "email": "Электронная почта",
+    "password": "Пароль",
+    "remember_me": "Запомнить меня",
+    "forgot_password": "Забыли пароль?",
+    "signin_btn": "Войти",
+    "or_continue": "Или продолжить через",
+    "no_account": "Нет аккаунта?",
+    "signup_now": "Зарегистрируйтесь сейчас",
+    "create_account": "Создать аккаунт",
+    "join_community": "Присоединяйтесь к нашему сообществу и начните работу",
+    "first_name": "Имя",
+    "last_name": "Фамилия",
+    "phone": "Номер телефона (Опционально)",
+    "username": "Имя пользователя",
+    "confirm_password": "Подтвердите пароль",
+    "accept_terms": "Я принимаю Условия использования и Политику конфиденциальности",
+    "already_account": "Уже есть аккаунт?",
+    "signin_existing": "Войти в существующий аккаунт"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "common": {
+    "login": "Entrar",
+    "signup": "Cadastrar-se",
+    "logout": "Sair",
+    "profile": "Perfil",
+    "dashboard": "Painel",
+    "home": "Início",
+    "settings": "Configurações",
+    "notifications": "Notificações",
+    "welcome": "Bem-vindo",
+    "boilerplate": "Boilerplate",
+    "notifications_empty": "Nenhuma nova notificação"
+  },
+  "dashboard": {
+    "title": "🎓 Painel LMS",
+    "welcome_prof": "Bem-vindo de volta, Professor! Aqui está sua visão geral de aprendizagem.",
+    "export": "Exportar Relatório",
+    "total_students": "Total de Alunos",
+    "active_courses": "Cursos Ativos",
+    "completion_rate": "Taxa de Conclusão",
+    "avg_study_time": "Tempo Médio de Estudo",
+    "enrollment_trends": "📈 Tendências de Matrícula",
+    "monthly_enrollment": "Matrículas mensais de alunos",
+    "overall_performance": "🎯 Desempenho Geral",
+    "avg_performance": "Pontuação média de desempenho do aluno"
+  },
+  "auth": {
+    "welcome_back": "Bem-vindo de volta",
+    "signin_continue": "Entre na sua conta para continuar",
+    "email": "Endereço de E-mail",
+    "password": "Senha",
+    "remember_me": "Lembrar-me",
+    "forgot_password": "Esqueceu a senha?",
+    "signin_btn": "Entrar",
+    "or_continue": "Ou continuar com",
+    "no_account": "Não tem uma conta?",
+    "signup_now": "Cadastre-se agora",
+    "create_account": "Criar Conta",
+    "join_community": "Junte-se à nossa comunidade e comece agora",
+    "first_name": "Primeiro Nome",
+    "last_name": "Sobrenome",
+    "phone": "Número de Telefone (Opcional)",
+    "username": "Nome de Usuário",
+    "confirm_password": "Confirmar Senha",
+    "accept_terms": "Eu concordo com los Termos de Serviço e Política de Privacidade",
+    "already_account": "Já tem uma conta?",
+    "signin_existing": "Entrar em Conta Existente"
+  }
+}

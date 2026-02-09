@@ -1,0 +1,50 @@
+{
+  "common": {
+    "login": "Увійти",
+    "signup": "Зареєструватися",
+    "logout": "Вийти",
+    "profile": "Профіль",
+    "dashboard": "Панель управління",
+    "home": "Головна",
+    "settings": "Налаштування",
+    "notifications": "Сповіщення",
+    "welcome": "Ласкаво просимо",
+    "boilerplate": "Шаблон",
+    "notifications_empty": "Нових сповіщень немає"
+  },
+  "dashboard": {
+    "title": "🎓 Панель LMS",
+    "welcome_prof": "З поверненням, професоре! Ось ваш огляд навчання.",
+    "export": "Експорт звіту",
+    "total_students": "Всього студентів",
+    "active_courses": "Активні курси",
+    "completion_rate": "Відсоток завершення",
+    "avg_study_time": "Сер. час навчання",
+    "enrollment_trends": "📈 Тенденції зарахування",
+    "monthly_enrollment": "Щомісячне зарахування студентів",
+    "overall_performance": "🎯 Загальна успішність",
+    "avg_performance": "Середній бал успішності студентів"
+  },
+  "auth": {
+    "welcome_back": "З поверненням",
+    "signin_continue": "Увійдіть у свій акаунт, щоб продовжити",
+    "email": "Електронна пошта",
+    "password": "Пароль",
+    "remember_me": "Запам'ятати мене",
+    "forgot_password": "Забули пароль?",
+    "signin_btn": "Увійти",
+    "or_continue": "Або продовжити через",
+    "no_account": "Немає акаунту?",
+    "signup_now": "Зареєструйтеся зараз",
+    "create_account": "Створити акаунт",
+    "join_community": "Приєднуйтесь до нашої спільноти та почніть роботу",
+    "first_name": "Ім'я",
+    "last_name": "Прізвище",
+    "phone": "Номер телефону (опціонально)",
+    "username": "Ім'я користувача",
+    "confirm_password": "Підтвердьте пароль",
+    "accept_terms": "Я приймаю Умови використання та Політику конфіденційності",
+    "already_account": "Вже є акаунт?",
+    "signin_existing": "Увійти в існуючий акаунт"
+  }
+}

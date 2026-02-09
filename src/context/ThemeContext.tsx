@@ -1,8 +1,10 @@
 import { useState, useEffect, type ReactNode } from 'react';
 import { ThemeProvider as MuiThemeProvider, createTheme, CssBaseline, GlobalStyles } from '@mui/material';
 import { ThemeContext, type ThemeMode } from './ThemeContextCore';
+import { useTranslation } from 'react-i18next';
 
 export function ThemeProvider({ children }: { children: ReactNode }) {
+  const { i18n } = useTranslation();
   const [mode, setMode] = useState<ThemeMode>(() => {
     if (typeof window !== 'undefined') {
       const saved = localStorage.getItem('theme-mode');
@@ -11,6 +13,8 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
     return 'light';
   });
 
+  const isRTL = ['ur', 'ar', 'fa', 'he'].includes(i18n.language);
+
   useEffect(() => {
     localStorage.setItem('theme-mode', mode);
     // Apply mode to document body
@@ -18,11 +22,16 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
     document.body.style.color = mode === 'dark' ? '#f9fafb' : '#111827';
   }, [mode]);
 
+  useEffect(() => {
+    document.dir = isRTL ? 'rtl' : 'ltr';
+  }, [isRTL]);
+
   const toggleTheme = () => {
     setMode((prev: ThemeMode) => (prev === 'light' ? 'dark' : 'light'));
   };
 
   const theme = createTheme({
+    direction: isRTL ? 'rtl' : 'ltr',
     palette: {
       mode,
       ...(mode === 'light'

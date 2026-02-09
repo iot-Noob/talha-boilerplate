@@ -1,0 +1,50 @@
+{
+  "common": {
+    "login": "Đăng nhập",
+    "signup": "Đăng ký",
+    "logout": "Đăng xuất",
+    "profile": "Hồ sơ",
+    "dashboard": "Bảng điều khiển",
+    "home": "Trang chủ",
+    "settings": "Cài đặt",
+    "notifications": "Thông báo",
+    "welcome": "Chào mừng",
+    "boilerplate": "Boilerplate",
+    "notifications_empty": "Không có thông báo mới"
+  },
+  "dashboard": {
+    "title": "🎓 Bảng điều khiển LMS",
+    "welcome_prof": "Chào mừng Giáo sư quay trở lại! Đây là tổng quan học tập của ông.",
+    "export": "Xuất báo cáo",
+    "total_students": "Tổng số học sinh",
+    "active_courses": "Khóa học đang hoạt động",
+    "completion_rate": "Tỷ lệ hoàn thành",
+    "avg_study_time": "Thời gian học trung bình",
+    "enrollment_trends": "📈 Xu hướng đăng ký",
+    "monthly_enrollment": "Số lượng học sinh đăng ký hàng tháng",
+    "overall_performance": "🎯 Hiệu suất tổng thể",
+    "avg_performance": "Điểm hiệu suất trung bình của học sinh"
+  },
+  "auth": {
+    "welcome_back": "Chào mừng bạn quay lại",
+    "signin_continue": "Đăng nhập vào tài khoản của bạn để tiếp tục",
+    "email": "Địa chỉ Email",
+    "password": "Mật khẩu",
+    "remember_me": "Ghi nhớ tôi",
+    "forgot_password": "Quên mật khẩu?",
+    "signin_btn": "Đăng nhập",
+    "or_continue": "Hoặc tiếp tục với",
+    "no_account": "Chưa có tài khoản?",
+    "signup_now": "Đăng ký ngay",
+    "create_account": "Tạo tài khoản",
+    "join_community": "Tham gia cộng đồng của chúng tôi và bắt đầu ngay",
+    "first_name": "Tên",
+    "last_name": "Họ",
+    "phone": "Số điện thoại (Tùy chọn)",
+    "username": "Tên đăng nhập",
+    "confirm_password": "Xác nhận mật khẩu",
+    "accept_terms": "Tôi đồng ý với các Điều khoản Dịch vụ và Chính sách Bảo mật",
+    "already_account": "Đã có tài khoản?",
+    "signin_existing": "Đăng nhập bằng tài khoản hiện có"
+  }
+}

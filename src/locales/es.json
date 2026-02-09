@@ -1,0 +1,50 @@
+{
+  "common": {
+    "login": "Iniciar sesión",
+    "signup": "Registrarse",
+    "logout": "Cerrar sesión",
+    "profile": "Perfil",
+    "dashboard": "Panel de control",
+    "home": "Inicio",
+    "settings": "Configuración",
+    "notifications": "Notificaciones",
+    "welcome": "Bienvenido",
+    "boilerplate": "Plantilla",
+    "notifications_empty": "No hay notificaciones nuevas"
+  },
+  "dashboard": {
+    "title": "🎓 Panel de LMS",
+    "welcome_prof": "¡Bienvenido de nuevo, Profesor! Aquí tiene su resumen de aprendizaje.",
+    "export": "Exportar reporte",
+    "total_students": "Total de estudiantes",
+    "active_courses": "Cursos activos",
+    "completion_rate": "Tasa de finalización",
+    "avg_study_time": "Tiempo promedio de estudio",
+    "enrollment_trends": "📈 Tendencias de inscripción",
+    "monthly_enrollment": "Inscripción mensual de estudiantes",
+    "overall_performance": "🎯 Rendimiento general",
+    "avg_performance": "Puntuación promedio de rendimiento estudiantil"
+  },
+  "auth": {
+    "welcome_back": "Bienvenido de nuevo",
+    "signin_continue": "Inicie sesión en su cuenta para continuar",
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "remember_me": "Recordarme",
+    "forgot_password": "¿Olvidó su contraseña?",
+    "signin_btn": "Iniciar sesión",
+    "or_continue": "O continuar con",
+    "no_account": "¿No tiene una cuenta?",
+    "signup_now": "Regístrese ahora",
+    "create_account": "Crear cuenta",
+    "join_community": "Únete a nuestra comunidad y comienza ahora",
+    "first_name": "Nombre",
+    "last_name": "Apellido",
+    "phone": "Número de teléfono (Opcional)",
+    "username": "Nombre de usuario",
+    "confirm_password": "Confirmar contraseña",
+    "accept_terms": "Acepto los Términos de Servicio y la Política de Privacidad",
+    "already_account": "¿Ya tiene una cuenta?",
+    "signin_existing": "Iniciar sesión con cuenta existente"
+  }
+}

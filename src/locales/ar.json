@@ -1,0 +1,50 @@
+{
+  "common": {
+    "login": "تسجيل الدخول",
+    "signup": "إنشاء حساب",
+    "logout": "تسجيل الخروج",
+    "profile": "الملف الشخصي",
+    "dashboard": "لوحة القيادة",
+    "home": "الرئيسية",
+    "settings": "الإعدادات",
+    "notifications": "التنبيهات",
+    "welcome": "أهلاً بك",
+    "boilerplate": "القالب",
+    "notifications_empty": "لا توجد تنبيهات جديدة"
+  },
+  "dashboard": {
+    "title": "🎓 لوحة إدارة التعلم",
+    "welcome_prof": "أهلاً بك مجدداً يا بروفسور! إليك نظرة عامة على التعلم.",
+    "export": "تصدير التقرير",
+    "total_students": "إجمالي الطلاب",
+    "active_courses": "الدورات النشطة",
+    "completion_rate": "معدل الإنجاز",
+    "avg_study_time": "متوسط وقت الدراسة",
+    "enrollment_trends": "📈 اتجاهات التسجيل",
+    "monthly_enrollment": "تسجيل الطلاب الشهري",
+    "overall_performance": "🎯 الأداء العام",
+    "avg_performance": "متوسط درجة أداء الطالب"
+  },
+  "auth": {
+    "welcome_back": "مرحباً بعودتك",
+    "signin_continue": "قم بتسجيل الدخول إلى حسابك للمتابعة",
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "remember_me": "تذكرني",
+    "forgot_password": "نسيت كلمة المرور؟",
+    "signin_btn": "تسجيل الدخول",
+    "or_continue": "أو المتابعة باستخدام",
+    "no_account": "ليس لديك حساب؟",
+    "signup_now": "سجل الآن",
+    "create_account": "إنشاء حساب",
+    "join_community": "انضم إلى مجتمعنا وابدأ الآن",
+    "first_name": "الاسم الأول",
+    "last_name": "اسم العائلة",
+    "phone": "رقم الهاتف (اختياري)",
+    "username": "اسم المستخدم",
+    "confirm_password": "تأكيد كلمة المرور",
+    "accept_terms": "أوافق على شروط الخدمة وسياسة الخصوصية",
+    "already_account": "لديك حساب بالفعل؟",
+    "signin_existing": "تسجيل الدخول إلى حساب موجود"
+  }
+}

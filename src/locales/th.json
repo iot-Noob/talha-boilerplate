@@ -1,0 +1,50 @@
+{
+  "common": {
+    "login": "เข้าสู่ระบบ",
+    "signup": "ลงทะเบียน",
+    "logout": "ออกจากระบบ",
+    "profile": "โปรไฟล์",
+    "dashboard": "แดชบอร์ด",
+    "home": "หน้าแรก",
+    "settings": "การตั้งค่า",
+    "notifications": "การแจ้งเตือน",
+    "welcome": "ยินดีต้อนรับ",
+    "boilerplate": "Boilerplate",
+    "notifications_empty": "ไม่มีการแจ้งเตือนใหม่"
+  },
+  "dashboard": {
+    "title": "🎓 แดชบอร์ด LMS",
+    "welcome_prof": "ยินดีต้อนรับกลับมาครับ ศาสตราจารย์! นี่คือภาพรวมการเรียนรู้ของคุณ",
+    "export": "ส่งออกรายงาน",
+    "total_students": "นักเรียนทั้งหมด",
+    "active_courses": "คอร์สที่กำลังใช้งาน",
+    "completion_rate": "อัตราการเรียนจบ",
+    "avg_study_time": "เวลาเรียนเฉลี่ย",
+    "enrollment_trends": "📈 แนวโน้มการลงทะเบียน",
+    "monthly_enrollment": "การลงทะเบียนนักเรียนรายเดือน",
+    "overall_performance": "🎯 ผลการเรียนโดยรวม",
+    "avg_performance": "คะแนนผลการเรียนเฉลี่ยของนักเรียน"
+  },
+  "auth": {
+    "welcome_back": "ยินดีต้อนรับกลับมา",
+    "signin_continue": "เข้าสู่ระบบเพื่อดำเนินการต่อ",
+    "email": "อีเมล",
+    "password": "รหัสผ่าน",
+    "remember_me": "จดจำฉันไว้",
+    "forgot_password": "ลืมรหัสผ่าน?",
+    "signin_btn": "เข้าสู่ระบบ",
+    "or_continue": "หรือเข้าใช้งานด้วย",
+    "no_account": "ยังไม่มีบัญชีใช่หรือไม่?",
+    "signup_now": "ลงทะเบียนตอนนี้",
+    "create_account": "สร้างบัญชี",
+    "join_community": "เข้าร่วมชุมชนของเราและเริ่มต้นใช้งานได้ทันที",
+    "first_name": "ชื่อ",
+    "last_name": "นามสกุล",
+    "phone": "เบอร์โทรศัพท์ (ถ้ามี)",
+    "username": "ชื่อผู้ใช้งาน",
+    "confirm_password": "ยืนยันรหัสผ่าน",
+    "accept_terms": "ฉันยอมรับข้อกำหนดการให้บริการและนโยบายความเป็นส่วนตัว",
+    "already_account": "มีบัญชีอยู่แล้วใช่หรือไม่?",
+    "signin_existing": "เข้าสู่ระบบด้วยบัญชีเดิม"
+  }
+}

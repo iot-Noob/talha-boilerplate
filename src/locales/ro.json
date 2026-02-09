@@ -1,0 +1,50 @@
+{
+  "common": {
+    "login": "Autentificare",
+    "signup": "Înregistrare",
+    "logout": "Deconectare",
+    "profile": "Profil",
+    "dashboard": "Panou de control",
+    "home": "Acasă",
+    "settings": "Setări",
+    "notifications": "Notificări",
+    "welcome": "Bun venit",
+    "boilerplate": "Boilerplate",
+    "notifications_empty": "Nu există notificări noi"
+  },
+  "dashboard": {
+    "title": "🎓 Panou LMS",
+    "welcome_prof": "Bine ați revenit, Domnule Profesor! Iată prezentarea generală a învățării.",
+    "export": "Exportă Raportul",
+    "total_students": "Total Studenți",
+    "active_courses": "Cursuri Active",
+    "completion_rate": "Rată de Finalizare",
+    "avg_study_time": "Timp Mediu de Studiu",
+    "enrollment_trends": "📈 Tendințe de Înscriere",
+    "monthly_enrollment": "Înscrieri lunare ale studenților",
+    "overall_performance": "🎯 Performanță Generală",
+    "avg_performance": "Scorul mediu de performanță al studenților"
+  },
+  "auth": {
+    "welcome_back": "Bine ai revenit",
+    "signin_continue": "Conectați-vă la contul dvs. pentru a continua",
+    "email": "Adresă de Email",
+    "password": "Parolă",
+    "remember_me": "Ține-mă minte",
+    "forgot_password": "Ai uitat parola?",
+    "signin_btn": "Autentificare",
+    "or_continue": "Sau continuă cu",
+    "no_account": "Nu ai cont?",
+    "signup_now": "Înregistrează-te acum",
+    "create_account": "Creează Cont",
+    "join_community": "Alătură-te comunității noastre și începe acum",
+    "first_name": "Prenume",
+    "last_name": "Nume",
+    "phone": "Număr de Telefon (Opțional)",
+    "username": "Nume de Utilizator",
+    "confirm_password": "Confirmă Parola",
+    "accept_terms": "Sunt de acord cu Termenii de Serviciu și Politica de Confidențialialitate",
+    "already_account": "Ai deja un cont?",
+    "signin_existing": "Autentificare în cont existent"
+  }
+}

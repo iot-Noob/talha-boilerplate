@@ -1,0 +1,50 @@
+{
+  "common": {
+    "login": "로그인",
+    "signup": "회원가입",
+    "logout": "로그아웃",
+    "profile": "프로필",
+    "dashboard": "대시보드",
+    "home": "홈",
+    "settings": "설정",
+    "notifications": "알림",
+    "welcome": "환영합니다",
+    "boilerplate": "보일러플레이트",
+    "notifications_empty": "새로운 알림이 없습니다"
+  },
+  "dashboard": {
+    "title": "🎓 LMS 대시보드",
+    "welcome_prof": "환영합니다, 교수님! 교수님의 학습 개요입니다.",
+    "export": "보고서 내보내기",
+    "total_students": "총 학생 수",
+    "active_courses": "활성 코스",
+    "completion_rate": "수료율",
+    "avg_study_time": "평균 학습 시간",
+    "enrollment_trends": "📈 등록 현황",
+    "monthly_enrollment": "월별 학생 등록",
+    "overall_performance": "🎯 종합 성과",
+    "avg_performance": "학생 평균 성과 점수"
+  },
+  "auth": {
+    "welcome_back": "환영합니다",
+    "signin_continue": "계속하려면 로그인하세요",
+    "email": "이메일 주소",
+    "password": "비밀번호",
+    "remember_me": "로그인 상태 유지",
+    "forgot_password": "비밀번호를 잊으셨나요?",
+    "signin_btn": "로그인",
+    "or_continue": "또는 다음으로 계속",
+    "no_account": "계정이 없으신가요?",
+    "signup_now": "지금 가입하세요",
+    "create_account": "계정 생성",
+    "join_community": "커뮤니티에 가입하고 시작하세요",
+    "first_name": "이름",
+    "last_name": "성",
+    "phone": "전화번호 (선택 사항)",
+    "username": "사용자 이름",
+    "confirm_password": "비밀번호 확인",
+    "accept_terms": "서비스 약관 및 개인정보 보호정책에 동의합니다",
+    "already_account": "이미 계정이 있나요?",
+    "signin_existing": "기존 계정으로 로그인"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "common": {
+    "login": "Anmelden",
+    "signup": "Registrieren",
+    "logout": "Abmelden",
+    "profile": "Profil",
+    "dashboard": "Dashboard",
+    "home": "Startseite",
+    "settings": "Einstellungen",
+    "notifications": "Benachrichtigungen",
+    "welcome": "Willkommen",
+    "boilerplate": "Boilerplate",
+    "notifications_empty": "Keine neuen Benachrichtigungen"
+  },
+  "dashboard": {
+    "title": "🎓 LMS Dashboard",
+    "welcome_prof": "Willkommen zurück, Herr Professor! Hier ist Ihre Lernübersicht.",
+    "export": "Bericht exportieren",
+    "total_students": "Gesamtzahl der Schüler",
+    "active_courses": "Aktive Kurse",
+    "completion_rate": "Abschlussrate",
+    "avg_study_time": "Durchschn. Lernzeit",
+    "enrollment_trends": "📈 Einschreibungstrends",
+    "monthly_enrollment": "Monatliche Schüleranmeldungen",
+    "overall_performance": "🎯 Gesamtleistung",
+    "avg_performance": "Durchschnittliche Leistungsbewertung der Schüler"
+  },
+  "auth": {
+    "welcome_back": "Willkommen zurück",
+    "signin_continue": "Melden Sie sich an, um fortzufahren",
+    "email": "E-Mail-Adresse",
+    "password": "Passwort",
+    "remember_me": "Angemeldet bleiben",
+    "forgot_password": "Passwort vergessen?",
+    "signin_btn": "Anmelden",
+    "or_continue": "Oder fortfahren mit",
+    "no_account": "Noch kein Konto?",
+    "signup_now": "Jetzt registrieren",
+    "create_account": "Konto erstellen",
+    "join_community": "Treten Sie unserer Community bei und legen Sie los",
+    "first_name": "Vorname",
+    "last_name": "Nachname",
+    "phone": "Telefonnummer (optional)",
+    "username": "Benutzername",
+    "confirm_password": "Passwort bestätigen",
+    "accept_terms": "Ich akzeptiere die Nutzungsbedingungen und die Datenschutzbestimmungen",
+    "already_account": "Bereits ein Konto?",
+    "signin_existing": "Mit bestehendem Konto anmelden"
+  }
+}

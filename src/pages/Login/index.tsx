@@ -23,6 +23,7 @@ import {
   GitHub,
 } from '@mui/icons-material';
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 import { useTheme } from '@mui/material/styles';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
@@ -38,6 +39,7 @@ const loginSchema = z.object({
 type LoginFormValues = z.infer<typeof loginSchema>;
 
 function Login() {
+  const { t } = useTranslation();
   const theme = useTheme();
   const navigate = useNavigate();
   const setAuth = useAuthStore((state) => state.setAuth);
@@ -110,7 +112,7 @@ function Login() {
             sx={{
               p: { xs: 3, sm: 4, md: 5 },
               borderRadius: 4,
-              background: 'rgba(255, 255, 255, 0.95)',
+              background: theme.palette.mode === 'dark' ? 'rgba(31, 41, 55, 0.9)' : 'rgba(255, 255, 255, 0.95)',
               backdropFilter: 'blur(10px)',
               overflow: 'hidden',
               position: 'relative',
@@ -177,10 +179,10 @@ function Login() {
                   mb: 1,
                 }}
               >
-                Welcome Back
+                {t('auth.welcome_back')}
               </Typography>
               <Typography variant="body2" color="text.secondary">
-                Sign in to your account to continue
+                {t('auth.signin_continue')}
               </Typography>
             </Box>
 
@@ -203,7 +205,7 @@ function Login() {
                 {/* Email Field */}
                 <TextField
                   fullWidth
-                  label="Email Address"
+                  label={t('auth.email')}
                   {...register('email')}
                   error={!!errors.email}
                   helperText={errors.email?.message}
@@ -223,7 +225,7 @@ function Login() {
                 {/* Password Field */}
                 <TextField
                   fullWidth
-                  label="Password"
+                  label={t('auth.password')}
                   type={showPassword ? 'text' : 'password'}
                   {...register('password')}
                   error={!!errors.password}
@@ -289,7 +291,7 @@ function Login() {
                           />
                         )}
                       </Box>
-                      Remember me
+                      {t('auth.remember_me')}
                     </Button>
                   </Box>
                   <Button
@@ -304,7 +306,7 @@ function Login() {
                       },
                     }}
                   >
-                    Forgot password?
+                    {t('auth.forgot_password')}
                   </Button>
                 </Box>
 
@@ -335,7 +337,7 @@ function Login() {
                     {isLoading ? (
                       <CircularProgress size={24} sx={{ color: 'white' }} />
                     ) : (
-                      'Sign In'
+                      t('auth.signin_btn')
                     )}
                   </Button>
                 </motion.div>
@@ -344,7 +346,7 @@ function Login() {
                 <Box sx={{ my: 4, position: 'relative' }}>
                   <Divider>
                     <Typography variant="body2" color="text.secondary" sx={{ px: 2 }}>
-                      Or continue with
+                      {t('auth.or_continue')}
                     </Typography>
                   </Divider>
                 </Box>
@@ -394,7 +396,7 @@ function Login() {
                 {/* Sign Up Link */}
                 <Box sx={{ textAlign: 'center' }}>
                   <Typography variant="body2" color="text.secondary">
-                    Don't have an account?{' '}
+                    {t('auth.no_account')}{' '}
                     <Button
                       variant="text"
                       size="small"
@@ -408,7 +410,7 @@ function Login() {
                         },
                       }}
                     >
-                      Sign up now
+                      {t('auth.signup_now')}
                     </Button>
                   </Typography>
                 </Box>

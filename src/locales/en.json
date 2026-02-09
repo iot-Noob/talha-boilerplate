@@ -1,0 +1,49 @@
+{
+    "common": {
+        "login": "Login",
+        "signup": "Sign Up",
+        "logout": "Logout",
+        "profile": "Profile",
+        "dashboard": "Dashboard",
+        "home": "Home",
+        "settings": "Settings",
+        "notifications": "Notifications",
+        "welcome": "Welcome",
+        "boilerplate": "Boilerplate"
+    },
+    "dashboard": {
+        "title": "🎓 LMS Dashboard",
+        "welcome_prof": "Welcome back, Professor! Here's your learning overview.",
+        "export": "Export Report",
+        "total_students": "Total Students",
+        "active_courses": "Active Courses",
+        "completion_rate": "Completion Rate",
+        "avg_study_time": "Avg. Study Time",
+        "enrollment_trends": "📈 Enrollment Trends",
+        "monthly_enrollment": "Monthly student enrollment",
+        "overall_performance": "🎯 Overall Performance",
+        "avg_performance": "Average student performance score"
+    },
+    "auth": {
+        "welcome_back": "Welcome Back",
+        "signin_continue": "Sign in to your account to continue",
+        "email": "Email Address",
+        "password": "Password",
+        "remember_me": "Remember me",
+        "forgot_password": "Forgot password?",
+        "signin_btn": "Sign In",
+        "or_continue": "Or continue with",
+        "no_account": "Don't have an account?",
+        "signup_now": "Sign up now",
+        "create_account": "Create Account",
+        "join_community": "Join our community and get started",
+        "first_name": "First Name",
+        "last_name": "Last Name",
+        "phone": "Phone Number (Optional)",
+        "username": "Username",
+        "confirm_password": "Confirm Password",
+        "accept_terms": "I agree to the Terms of Service and Privacy Policy",
+        "already_account": "Already have an account?",
+        "signin_existing": "Sign In to Existing Account"
+    }
+}

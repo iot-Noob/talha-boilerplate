@@ -1,0 +1,50 @@
+{
+  "common": {
+    "login": "Giriş Yap",
+    "signup": "Kayıt Ol",
+    "logout": "Çıkış Yap",
+    "profile": "Profil",
+    "dashboard": "Panel",
+    "home": "Anasayfa",
+    "settings": "Ayarlar",
+    "notifications": "Bildirimler",
+    "welcome": "Hoş Geldiniz",
+    "boilerplate": "Boilerplate",
+    "notifications_empty": "Yeni bildirim yok"
+  },
+  "dashboard": {
+    "title": "🎓 LMS Paneli",
+    "welcome_prof": "Tekrar hoş geldiniz, Profesör! İşte öğrenim özetiniz.",
+    "export": "Raporu Dışa Aktar",
+    "total_students": "Toplam Öğrenci",
+    "active_courses": "Aktif Kurslar",
+    "completion_rate": "Tamamlama Oranı",
+    "avg_study_time": "Ort. Çalışma Süresi",
+    "enrollment_trends": "📈 Kayıt Trendleri",
+    "monthly_enrollment": "Aylık öğrenci kaydı",
+    "overall_performance": "🎯 Genel Performans",
+    "avg_performance": "Ortalama öğrenci performans puanı"
+  },
+  "auth": {
+    "welcome_back": "Tekrar Hoş Geldiniz",
+    "signin_continue": "Devam etmek için hesabınıza giriş yapın",
+    "email": "E-posta Adresi",
+    "password": "Şifre",
+    "remember_me": "Beni hatırla",
+    "forgot_password": "Şifremi unuttum?",
+    "signin_btn": "Giriş Yap",
+    "or_continue": "Veya şununla devam et",
+    "no_account": "Hesabınız yok mu?",
+    "signup_now": "Şimdi kayıt ol",
+    "create_account": "Hesap Oluştur",
+    "join_community": "Topluluğumuza katılın ve başlayın",
+    "first_name": "Ad",
+    "last_name": "Soyad",
+    "phone": "Telefon Numarası (Opsiyonel)",
+    "username": "Kullanıcı Adı",
+    "confirm_password": "Şifreyi Onayla",
+    "accept_terms": "Hizmet Şartlarını ve Gizlilik Politikasını kabul ediyorum",
+    "already_account": "Zaten bir hesabınız var mı?",
+    "signin_existing": "Mevcut Hesaba Giriş Yap"
+  }
+}

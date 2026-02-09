@@ -1,0 +1,50 @@
+{
+  "common": {
+    "login": "ログイン",
+    "signup": "新規登録",
+    "logout": "ログアウト",
+    "profile": "プロフィール",
+    "dashboard": "ダッシュボード",
+    "home": "ホーム",
+    "settings": "設定",
+    "notifications": "通知",
+    "welcome": "ようこそ",
+    "boilerplate": "ボイラープレート",
+    "notifications_empty": "新しい通知はありません"
+  },
+  "dashboard": {
+    "title": "🎓 LMS ダッシュボード",
+    "welcome_prof": "おかえりなさい、先生！学習の概要はこちらです。",
+    "export": "レポートをエクスポート",
+    "total_students": "学生総数",
+    "active_courses": "アクティブなコース",
+    "completion_rate": "修了率",
+    "avg_study_time": "平均学習時間",
+    "enrollment_trends": "📈 登録傾向",
+    "monthly_enrollment": "月間学習者登録数",
+    "overall_performance": "🎯 全体パフォーマンス",
+    "avg_performance": "学生の平均パフォーマンススコア"
+  },
+  "auth": {
+    "welcome_back": "おかえりなさい",
+    "signin_continue": "続行するにはアカウントにサインインしてください",
+    "email": "メールアドレス",
+    "password": "パスワード",
+    "remember_me": "ログイン状態を保持",
+    "forgot_password": "パスワードをお忘れですか？",
+    "signin_btn": "サインイン",
+    "or_continue": "または次で続行",
+    "no_account": "アカウントをお持ちでないですか？",
+    "signup_now": "今すぐ登録",
+    "create_account": "アカウント作成",
+    "join_community": "コミュニティに参加して始めましょう",
+    "first_name": "名",
+    "last_name": "姓",
+    "phone": "電話番号（任意）",
+    "username": "ユーザー名",
+    "confirm_password": "パスワード（確認用）",
+    "accept_terms": "利用規約とプライバシーポリシーに同意します",
+    "already_account": "すでにアカウントをお持ちですか？",
+    "signin_existing": "既存のアカウントでサインイン"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "common": {
+    "login": "Inloggen",
+    "signup": "Aanmelden",
+    "logout": "Uitloggen",
+    "profile": "Profiel",
+    "dashboard": "Dashboard",
+    "home": "Home",
+    "settings": "Instellingen",
+    "notifications": "Meldingen",
+    "welcome": "Welkom",
+    "boilerplate": "Boilerplate",
+    "notifications_empty": "Geen nieuwe meldingen"
+  },
+  "dashboard": {
+    "title": "🎓 LMS Dashboard",
+    "welcome_prof": "Welkom terug, professor! Hier is uw leeroverzicht.",
+    "export": "Rapport exporteren",
+    "total_students": "Totaal aantal studenten",
+    "active_courses": "Actieve cursussen",
+    "completion_rate": "Voltooiingspercentage",
+    "avg_study_time": "Gem. studietijd",
+    "enrollment_trends": "📈 Inschrijvingstrends",
+    "monthly_enrollment": "Maandelijkse inschrijvingen",
+    "overall_performance": "🎯 Globale prestaties",
+    "avg_performance": "Gemiddelde prestatiescore student"
+  },
+  "auth": {
+    "welcome_back": "Welkom terug",
+    "signin_continue": "Log in op uw account om door te gaan",
+    "email": "E-mailadres",
+    "password": "Wachtwoord",
+    "remember_me": "Onthoud mij",
+    "forgot_password": "Wachtwoord vergeten?",
+    "signin_btn": "Inloggen",
+    "or_continue": "Of ga verder met",
+    "no_account": "Heeft u geen account?",
+    "signup_now": "Nu aanmelden",
+    "create_account": "Account aanmaken",
+    "join_community": "Word lid van onze community and ga aan de slag",
+    "first_name": "Voornaam",
+    "last_name": "Achternaam",
+    "phone": "Telefoonnummer (optioneel)",
+    "username": "Gebruikersnaam",
+    "confirm_password": "Wachtwoord bevestigen",
+    "accept_terms": "Ik ga akkoord met de Servicevoorwaarden en het Privacybeleid",
+    "already_account": "Heeve u al een account?",
+    "signin_existing": "Inloggen op bestaand account"
+  }
+}

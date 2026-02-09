@@ -1,0 +1,50 @@
+{
+  "common": {
+    "login": "Masuk",
+    "signup": "Daftar",
+    "logout": "Keluar",
+    "profile": "Profil",
+    "dashboard": "Dasbor",
+    "home": "Beranda",
+    "settings": "Pengaturan",
+    "notifications": "Notifikasi",
+    "welcome": "Selamat Datang",
+    "boilerplate": "Boilerplate",
+    "notifications_empty": "Tidak ada notifikasi baru"
+  },
+  "dashboard": {
+    "title": "🎓 Dasbor LMS",
+    "welcome_prof": "Selamat datang kembali, Profesor! Berikut adalah ringkasan pembelajaran Anda.",
+    "export": "Ekspor Laporan",
+    "total_students": "Total Siswa",
+    "active_courses": "Kursus Aktif",
+    "completion_rate": "Tingkat Penyelesaian",
+    "avg_study_time": "Rata-rata Waktu Belajar",
+    "enrollment_trends": "📈 Tren Pendaftaran",
+    "monthly_enrollment": "Pendaftaran siswa bulanan",
+    "overall_performance": "🎯 Performa Keseluruhan",
+    "avg_performance": "Skor performa rata-rata siswa"
+  },
+  "auth": {
+    "welcome_back": "Selamat Datang Kembali",
+    "signin_continue": "Masuk ke akun Anda untuk melanjutkan",
+    "email": "Alamat Email",
+    "password": "Kata Sandi",
+    "remember_me": "Ingat saya",
+    "forgot_password": "Lupa kata sandi?",
+    "signin_btn": "Masuk",
+    "or_continue": "Atau lanjutkan dengan",
+    "no_account": "Belum punya akun?",
+    "signup_now": "Daftar sekarang",
+    "create_account": "Buat Akun",
+    "join_community": "Bergabunglah dengan komunitas kami dan mulailah sekarang",
+    "first_name": "Nama Depan",
+    "last_name": "Nama Belakang",
+    "phone": "Nomor Telepon (Opsional)",
+    "username": "Nama Pengguna",
+    "confirm_password": "Konfirmasi Kata Sandi",
+    "accept_terms": "Saya setuju dengan Ketentuan Layanan dan Kebijakan Privasi",
+    "already_account": "Sudah punya akun?",
+    "signin_existing": "Masuk ke Akun yang Sudah Ada"
+  }
+}

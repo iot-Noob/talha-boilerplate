@@ -1,0 +1,50 @@
+{
+  "common": {
+    "login": "লগইন",
+    "signup": "সাইন আপ",
+    "logout": "লগ আউট",
+    "profile": "প্রোফাইল",
+    "dashboard": "ড্যাশবোর্ড",
+    "home": "হোম",
+    "settings": "সেটিংস",
+    "notifications": "নোটিফিকেশন",
+    "welcome": "স্বাগতম",
+    "boilerplate": "বয়লারপ্লেট",
+    "notifications_empty": "কোন নতুন নোটিফিকেশন নেই"
+  },
+  "dashboard": {
+    "title": "🎓 এলএমএস ড্যাশবোর্ড",
+    "welcome_prof": "স্বাগতম, প্রফেসর! এখানে আপনার শিক্ষার সংক্ষিপ্ত বিবরণ রয়েছে।",
+    "export": "রিপোর্ট এক্সপোর্ট করুন",
+    "total_students": "মোট ছাত্র",
+    "active_courses": "সক্রিয় কোর্স",
+    "completion_rate": "সম্পূর্ণতার হার",
+    "avg_study_time": "গড় অধ্যয়নের সময়",
+    "enrollment_trends": "📈 ভর্তির প্রবণতা",
+    "monthly_enrollment": "মাসিক ছাত্র ভর্তি",
+    "overall_performance": "🎯 সামগ্রিক কর্মক্ষমতা",
+    "avg_performance": "ছাত্রদের গড় কর্মক্ষমতা স্কোর"
+  },
+  "auth": {
+    "welcome_back": "স্বাগতম",
+    "signin_continue": "চালিয়ে যেতে আপনার অ্যাকাউন্টে সাইন ইন করুন",
+    "email": "ইমেল ঠিকানা",
+    "password": "পাসওয়ার্ড",
+    "remember_me": "আমাকে মনে রাখুন",
+    "forgot_password": "পাসওয়ার্ড ভুলে গেছেন?",
+    "signin_btn": "সাইন ইন করুন",
+    "or_continue": "অথবা এর মাধ্যমে চালিয়ে যান",
+    "no_account": "কোন অ্যাকাউন্ট নেই?",
+    "signup_now": "এখনই সাইন আপ করুন",
+    "create_account": "অ্যাকাউন্ট তৈরি করুন",
+    "join_community": "আমাদের কমিউনিটিতে যোগ দিন এবং শুরু করুন",
+    "first_name": "নামের প্রথম অংশ",
+    "last_name": "নামের শেষ অংশ",
+    "phone": "ফোন নম্বর (ঐচ্ছিক)",
+    "username": "ইউজারনেম",
+    "confirm_password": "পাসওয়ার্ড নিশ্চিত করুন",
+    "accept_terms": "আমি পরিষেবার শর্তাবলী এবং গোপনীয়তা নীতির সাথে সম্মত",
+    "already_account": "ইতিমধ্যেই অ্যাকাউন্ট আছে?",
+    "signin_existing": "বিদ্যমান অ্যাকাউন্টে সাইন ইন করুন"
+  }
+}

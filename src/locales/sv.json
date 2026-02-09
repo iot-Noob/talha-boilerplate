@@ -1,0 +1,50 @@
+{
+  "common": {
+    "login": "Logga in",
+    "signup": "Registrera dig",
+    "logout": "Logga ut",
+    "profile": "Profil",
+    "dashboard": "Panel",
+    "home": "Hem",
+    "settings": "Inställningar",
+    "notifications": "Aviseringar",
+    "welcome": "Välkommen",
+    "boilerplate": "Boilerplate",
+    "notifications_empty": "Inga nya aviseringar"
+  },
+  "dashboard": {
+    "title": "🎓 LMS-panel",
+    "welcome_prof": "Välkommen tillbaka, professorn! Här är din inlärningsöversikt.",
+    "export": "Exportera rapport",
+    "total_students": "Totalt antal studenter",
+    "active_courses": "Aktiva kurser",
+    "completion_rate": "Genomförandegrad",
+    "avg_study_time": "Genomsnittlig studietid",
+    "enrollment_trends": "📈 Inskrivningstrender",
+    "monthly_enrollment": "Månatlig studentinskrivning",
+    "overall_performance": "🎯 Total prestanda",
+    "avg_performance": "Genomsnittlig studentprestanda"
+  },
+  "auth": {
+    "welcome_back": "Välkommen tillbaka",
+    "signin_continue": "Logga in på ditt konto för att fortsätta",
+    "email": "E-postadress",
+    "password": "Lösenord",
+    "remember_me": "Kom ihåg mig",
+    "forgot_password": "Glömt lösenordet?",
+    "signin_btn": "Logga in",
+    "or_continue": "Eller fortsätt med",
+    "no_account": "Har du inget konto?",
+    "signup_now": "Registrera dig nu",
+    "create_account": "Skapa konto",
+    "join_community": "Gå med i vår community och kom igång",
+    "first_name": "Förnamn",
+    "last_name": "Efternamn",
+    "phone": "Telefonnummer (valfritt)",
+    "username": "Användarnamn",
+    "confirm_password": "Bekräfta lösenord",
+    "accept_terms": "Jag godkänner användarvillkoren och integritetspolicyn",
+    "already_account": "Har du redan ett konto?",
+    "signin_existing": "Logga in på befintligt konto"
+  }
+}

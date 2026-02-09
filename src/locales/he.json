@@ -1,0 +1,50 @@
+{
+  "common": {
+    "login": "התחברות",
+    "signup": "הרשמה",
+    "logout": "התנתקות",
+    "profile": "פרופיל",
+    "dashboard": "לוח בקרה",
+    "home": "דף הבית",
+    "settings": "הגדרות",
+    "notifications": "התראות",
+    "welcome": "ברוך הבא",
+    "boilerplate": "Boilerplate",
+    "notifications_empty": "אין התראות חדשות"
+  },
+  "dashboard": {
+    "title": "🎓 לוח בקרה LMS",
+    "welcome_prof": "ברוך שובך, פרופסור! הנה סקירת הלמידה שלך.",
+    "export": "ייצוא דוח",
+    "total_students": "סה\"כ סטודנטים",
+    "active_courses": "קורסים פעילים",
+    "completion_rate": "שיעור השלמה",
+    "avg_study_time": "זמן לימוד ממוצע",
+    "enrollment_trends": "📈 מגמות הרשמה",
+    "monthly_enrollment": "הרשמת סטודנטים חודשית",
+    "overall_performance": "🎯 ביצועים כלליים",
+    "avg_performance": "ציון ביצועי סטודנטים ממוצע"
+  },
+  "auth": {
+    "welcome_back": "ברוך שובך",
+    "signin_continue": "התחבר לחשבונך כדי להמשיך",
+    "email": "כתובת אימייל",
+    "password": "סיסמה",
+    "remember_me": "זכור אותי",
+    "forgot_password": "שכחת סיסמה?",
+    "signin_btn": "התחברות",
+    "or_continue": "או המשך עם",
+    "no_account": "אין לך חשבון?",
+    "signup_now": "הירשם עכשיו",
+    "create_account": "צור חשבון",
+    "join_community": "הצטרף לקהילה שלנו והתחל עכשיו",
+    "first_name": "שם פרטי",
+    "last_name": "שם משפחה",
+    "phone": "מספר טלפון (אופציונלי)",
+    "username": "שם משתמש",
+    "confirm_password": "אימות סיסמה",
+    "accept_terms": "אני מסכים לתנאי השימוש ולמדיניות הפרטיות",
+    "already_account": "כבר יש לך חשבון?",
+    "signin_existing": "התחבר לחשבון קיים"
+  }
+}
